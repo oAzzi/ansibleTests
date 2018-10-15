@@ -1,9 +1,8 @@
-- name: Criando uma nova pasta
-  hosts: all
+# Esse playbook cira uma nova pasta o host Windows
+- name: Criando uma nova pasta 
+  hosts: all 
 
   tasks:
     - name: Criando uma nova pasta
       win_shell: cd C:\Users\Administrador\Desktop
-      args: 
-      creates: mkdir nova pasta 
-      
+      win_shell: mkdir "nova pasta"
