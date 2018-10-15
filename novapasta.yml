@@ -1,0 +1,9 @@
+- name: Criando uma nova pasta
+  hosts: all
+
+  tasks:
+    - name: criando uma nova pasta
+      win_shell: cd C:\Users\Administrador\Desktop
+        args: 
+          creates: mkdir nova pasta 
+      
