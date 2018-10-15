@@ -4,5 +4,5 @@
 
   tasks:
     - name: Criando uma nova pasta
-      win_shell: cd C:\Users\Administrador\Desktop
+      win_shell: cd C:\Users\Administrador\Desktop\
       win_shell: mkdir "nova pasta"
