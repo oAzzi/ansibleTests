@@ -3,5 +3,5 @@
   hosts: all 
 
   tasks:
-  - name: ping
+  name: pingTest
     win_ping:
