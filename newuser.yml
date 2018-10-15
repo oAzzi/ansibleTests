@@ -8,4 +8,4 @@
         senha: senha
         state: present
         groups:
-          - Users
+          - Administrador
