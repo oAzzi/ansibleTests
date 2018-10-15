@@ -2,7 +2,7 @@
   hosts: all
 
   tasks:
-    - name: criando uma nova pasta
+    - name: Criando uma nova pasta
       win_shell: cd C:\Users\Administrador\Desktop
       args: 
       creates: mkdir nova pasta 
