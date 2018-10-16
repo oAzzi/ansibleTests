@@ -1,7 +1,6 @@
-# Esse playbook cira uma nova pasta no Desktop do host Windows
-- name: pasta1
-  hosts: all 
-
+---
+- hosts: all
+  
   tasks:
-  - name: pasta
+  - name: create a new folder
     win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
