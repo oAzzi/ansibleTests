@@ -1,0 +1,10 @@
+#Esse playbook permite abrir um determinado site através do Google-Chrome no windows
+- name: Open a website
+  hosts: all
+  
+  tasks:
+    - name: selecionando o diretorio do chrome 
+      win_shell: cd C:\Program Files (x86)\Google\Application
+    - name: abrindo o chrome e escolhendo o site
+      win_shell: start chrome.exe "www.uol.com.br"
+
