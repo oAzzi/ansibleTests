@@ -1,3 +1,4 @@
+#Esse playbook permite criar  um usuário no windows
 - name: Ensure user rafael is present
   hosts: all
   
