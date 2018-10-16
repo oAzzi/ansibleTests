@@ -1,4 +1,4 @@
-#Esse playbook permite reiniciar uma máquina windows
+#Esse playbook permite rebootar/reiniciar uma máquina windows
 ---
   - hosts: all
 
