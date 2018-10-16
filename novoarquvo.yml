@@ -1,4 +1,10 @@
-- name: Touch a file (creates if not present, updates modification time if present)
-  win_file:
-    path: C:\Administrador\Desktop\"new.txt"
-    state: touch
+
+#Esse playbook permite criar um novo arquivo
+- name: criando um novo arquivo
+  hosts: all
+  
+  tasks: 
+    - name: criando o arquivo
+      win_file:
+        path: C:\Administrador\Desktop\"new.txt"
+        state: touch
