@@ -1,3 +1,4 @@
+#Esse playbook permite criar a uma nova pasta e movê-la para um determinado destino
 - name: create a new folder
   hosts: all
   
