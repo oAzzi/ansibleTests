@@ -3,6 +3,6 @@
   hosts: all
   
   tasks:
-    - name: selecionando o diretorio do chrome 
-      win_shell: start chrome.exe "www.uol.com.br"
+    - name: abrindo o navegador
+      win_shell: start Chrome.exe "www.uol.com.br"
 
