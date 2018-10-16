@@ -2,5 +2,7 @@
   hosts: all
   
   tasks:
-    - name: new folder 
-      win_shell: mkdir C:\Users\Administrador\Desktop\"novaPasta"
+    - name: criando nova pasta 
+      win_shell: mkdir "novaPasta"
+    - name: movendo a pasta para o desktop
+      win_shell: mv ".\novaPasta" C:\Users\Administrador\Desktop
