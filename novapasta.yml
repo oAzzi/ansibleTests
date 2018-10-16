@@ -1,2 +1,6 @@
-hosts: all
-win_shell: mkdir C:\Users\Administrador\Desktop\"novaPasta"
+- name: create a new folder
+  hosts: all
+  
+  tasks:
+    - name: new folder 
+      win_shell: mkdir C:\Users\Administrador\Desktop\"novaPasta"
