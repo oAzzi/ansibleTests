@@ -3,5 +3,5 @@
   hosts: all 
 
   tasks:
-    - name: pasta
-      win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
+  - name: pasta
+    win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
