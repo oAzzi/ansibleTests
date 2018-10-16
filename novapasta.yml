@@ -1,7 +1,7 @@
 ---
-name: teste pasta
-hosts: all
+- name: 
+  hosts: all
 
-tasks:
-  name: pasta
-  win_shell: mkdir C:\Users\Administrador\Desktop\"novaPasta"
+  tasks:
+    - name: pasta
+      win_shell: mkdir C:\Users\Administrador\Desktop\"novaPasta"
