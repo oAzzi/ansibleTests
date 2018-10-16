@@ -1,5 +1,4 @@
----
-- name: install google-chrome
+- name: install chrome
   hosts: all
 
   tasks:
