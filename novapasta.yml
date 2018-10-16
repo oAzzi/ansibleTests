@@ -1,6 +1,7 @@
 ---
-- hosts: all
+- name: teste pasta
+  hosts: all
 
   tasks:
-  - name: criando uma pasta no desktop
-    win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
+    - name: pasta
+      win_shell: mkdir C:\Users\Administrador\Desktop\"novaPasta"
