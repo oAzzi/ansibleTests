@@ -3,5 +3,4 @@
   hosts: all 
 
   tasks:
-    - name: Criando uma nova pasta
-      win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
+    win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
