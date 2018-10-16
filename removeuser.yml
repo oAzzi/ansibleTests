@@ -1,0 +1,8 @@
+- name: Ensure user rafael is absent
+  hosts: all
+  
+  tasks:
+    - name: Ensure user rafael is absent
+      win_user:
+        name: rafael
+        state: absent
