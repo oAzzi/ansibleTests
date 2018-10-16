@@ -3,6 +3,6 @@
   
   tasks:
     - name: criando nova pasta 
-      win_shell: mkdir "Nova Pasta"
+      win_shell: mkdir "Pasta do Pedro"
     - name: movendo a pasta para o desktop
-      win_shell: mv ".\Nova Pasta" C:\Users\Administrador\Desktop
+      win_shell: mv ".\Pasta do Pedro" C:\Users\Administrador\Desktop
