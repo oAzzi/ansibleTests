@@ -1,4 +1,5 @@
-- name: install chrome
+#Esse Playbook permite fazer a instalação do navegador Google-Chrome no Windows  através de um comando PowerShell
+- name: install google-chrome
   hosts: all
 
   tasks:
