@@ -1,3 +1,4 @@
+#Esse playbook permite remover um usuário no Windows
 - name: Ensure user rafael is absent
   hosts: all
   
