@@ -1,6 +1,3 @@
 ---
 - hosts: all
-  
-  tasks:
-    - name: run shell commands
-      win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
+  win_shell: mkdir C:\Users\Administrador\Desktop\"nova pasta"
